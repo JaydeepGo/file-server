@@ -1,5 +1,5 @@
 <?php
-require_once('connect.php');
+require_once('site/connect.php');
 if(isset($_POST) & !empty($_POST)){
     $username = mysqli_real_escape_string($connection, $_POST['username']);
     $email = mysqli_real_escape_string($connection, $_POST['email']);
@@ -25,7 +25,7 @@ if(isset($_POST) & !empty($_POST)){
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href-"styles.css">
+    <link rel="stylesheet" type="text/css" href-"site/styles.css">
     </head>
     <body>
     <div class="container">
@@ -39,7 +39,7 @@ if(isset($_POST) & !empty($_POST)){
         <label for="input password" class="sr-only">Password</label>
         <input type="password" name="password" id="input password" class="'form control" placeholder="password" required>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
-        <a class="btn btn-lg btn-primary btn-block" href="login.php">Login</a>
+        <a class="btn btn-lg btn-primary btn-block" href="site/login.php">Login</a>
         </form>
 </div>
     </body>
