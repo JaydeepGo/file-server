@@ -1,5 +1,5 @@
 <?php
-require_once('connect.php');
+require_once('site/connect.php');
 if(isset($_POST) & !empty($_POST)){
     $username = $_POST['username'];
     $password = $_POST['password'];
@@ -23,7 +23,7 @@ if(isset($_POST) & !empty($_POST)){
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="site/styles.css">
     </head>
     <body style="background-color:#ffffb3">
         <center><h1><b>GECB FILE SYSTEM</b></h1></center>
