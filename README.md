@@ -1,4 +1,4 @@
-﻿# File server with local IDE for Python, C and C++ 
+# File server with local IDE for Python, C and C++ 
 
 This is a normal File Server demo and add a local jupyter-notebook hosted over local network.
 
@@ -14,8 +14,8 @@ To run this project, you need to:
 2. Change the path of the Python script in the line 2 of [fileserver.sh](fileserver.sh)
 3. Create a database using cc.sql
 
-## Project Team:
 
+## Team
 * [Manish Soni](https://www.linkedin.com/in/manisomanish/)
 * [Poonam Verma](https://www.linkedin.com/in/poonam-verma-319bb6151/)
 * [Jaydeep Godara](https://www.linkedin.com/in/jaydeep-godara/)
