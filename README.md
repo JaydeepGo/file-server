@@ -1,13 +1,19 @@
-#File server
+# File server with local IDE for Python, C and C++ 
+
 This is a normal File Server demo and add a local jupyter-notebook hosted over local network.
 
-This Project is used to represent basic functionality of file server and provide a platform to code anywhere-anytime
-I use PHP for login process and a python script for file download-upload.
+This Project is used to represent basic functionality of file server and provide a platform to code anywhere-anytime.
 
-## Usage
-1. Change database login in `connect.php` file.
-2. Change path of `python-script` file in `fileserver.sh` file.
-3. Create database using `cc.sql` file.
+PHP is used for the login process and a Python script for the download and upload process.
+
+## Running the project:
+
+To run this project, you need to:
+
+1. Change the database information in the line 2 of [connect.php](connect.php)
+2. Change the path of the Python script in the line 2 of [fileserver.sh](fileserver.sh)
+3. Create a database using cc.sql
+
 
 ## Team
 * [Manish Soni](https://www.linkedin.com/in/manisomanish/)
